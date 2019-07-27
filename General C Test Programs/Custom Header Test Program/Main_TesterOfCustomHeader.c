@@ -3,7 +3,7 @@
 // Custom header. Use "File_Name" if header in same dir (faster).
 #include "FishConstantsAndFunction.h""
 
-void Test_UseCustomHeader()
+int main()
 {
     float discountPercentage = 1.0;
 
@@ -20,4 +20,6 @@ void Test_UseCustomHeader()
 
     // Print new fish cost, with price formatted to maximum of 2 decimal places.
     printf("CLIENT: The new cost of %s is $%5.2f\n", FishName, fishCostOnSale);
+
+	return 0;
 }
